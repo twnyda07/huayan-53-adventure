@@ -43,3 +43,38 @@
   var badge = document.getElementById("progress");
   if (badge) badge.textContent = "已上架 " + readyCount + " / 53 篇";
 })();
+
+/* 首頁：依 catalog.js 的 window.BEASTS 建立「四大神獸圖鑑」 */
+(function () {
+  var mount = document.getElementById("beasts");
+  if (!mount || !window.BEASTS) return;
+
+  var frag = document.createDocumentFragment();
+
+  window.BEASTS.forEach(function (beast) {
+    var card = document.createElement("div");
+    card.className = "beast-card " + (beast.met ? "met" : "locked");
+
+    if (beast.met) {
+      card.innerHTML =
+        '<div class="beast-emoji">' + beast.emoji + '</div>' +
+        '<div class="beast-name">' + beast.name + '</div>' +
+        '<div class="beast-bodhi">' + beast.bodhisattva + ' 座騎</div>' +
+        '<div class="beast-virtue">' + beast.virtue + '</div>' +
+        '<div class="beast-desc">' + beast.desc + '</div>' +
+        '<div class="beast-state met">' + beast.metAt + '相遇 ✦</div>';
+    } else {
+      card.innerHTML =
+        '<div class="beast-emoji locked">🔒</div>' +
+        '<div class="beast-name locked">？？？</div>' +
+        '<div class="beast-bodhi">？？？ 座騎</div>' +
+        '<div class="beast-virtue">' + beast.virtue + '</div>' +
+        '<div class="beast-desc locked">還沒相遇，一路讀下去就會遇見牠。</div>' +
+        '<div class="beast-state locked">' + beast.metAt + ' 尚未相遇</div>';
+    }
+
+    frag.appendChild(card);
+  });
+
+  mount.appendChild(frag);
+})();
