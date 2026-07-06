@@ -9,7 +9,7 @@
 window.CATALOG = [
   { n: "01", teacher: "德雲比丘", title: "追不到的山頂", theme: "專注，換個角度看世界", sdg: 4,  status: "ready", href: "stories/01.html" },
   { n: "02", teacher: "海雲比丘", title: "會說話的大海", theme: "觀察與好奇心",       sdg: 14, status: "ready", href: "stories/02.html" },
-  { n: "03", teacher: "善住比丘", title: "走在天空的人", theme: "自由與自律",           sdg: 3,  status: "coming" },
+  { n: "03", teacher: "善住比丘", title: "走在天空的人", theme: "自由與自律",           sdg: 3,  status: "ready", href: "stories/03.html" },
   { n: "04", teacher: "彌伽長者", title: "說出和平的話", theme: "語言的力量",           sdg: 16, status: "coming" },
   { n: "05", teacher: "解脫長者", title: "胸中的宇宙",   theme: "心胸寬廣與包容",       sdg: 10, status: "coming" },
   { n: "06", teacher: "海幢比丘", title: "身上長出的救星", theme: "無盡的奉獻",         sdg: 1,  status: "coming" },
