@@ -13,7 +13,7 @@ window.CATALOG = [
   { n: "04", teacher: "彌伽長者", title: "說出和平的話", theme: "語言的力量",           sdg: 16, status: "ready", href: "stories/04.html" },
   { n: "05", teacher: "解脫長者", title: "胸中的宇宙",   theme: "心胸寬廣與包容",       sdg: 10, status: "ready", href: "stories/05.html" },
   { n: "06", teacher: "海幢比丘", title: "身上長出的救星", theme: "無盡的奉獻",         sdg: 1,  status: "ready", href: "stories/06.html" },
-  { n: "07", teacher: "休捨優婆夷", title: "憂愁消失的花園", theme: "撫慰與陪伴",       sdg: 3,  status: "coming" },
+  { n: "07", teacher: "休捨優婆夷", title: "憂愁消失的花園", theme: "撫慰與陪伴",       sdg: 3,  status: "ready", href: "stories/07.html" },
   { n: "08", teacher: "毘目瞿沙仙人", title: "一握手，遊千國", theme: "信任",           sdg: 17, status: "coming" },
   { n: "09", teacher: "勝熱婆羅門", title: "跳進火裡的勇氣", theme: "勇氣，跨過恐懼",   sdg: 3,  status: "coming" },
   { n: "10", teacher: "慈行童女", title: "公主的魔鏡宮", theme: "慈愛，溫柔待萬物",     sdg: 5,  status: "coming" },
