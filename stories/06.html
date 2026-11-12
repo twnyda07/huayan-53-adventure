@@ -9,6 +9,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@600;700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../assets/style.css" />
+<style>
+  /* 本站資訊（寶嚴禪寺所有開發一律附） */
+  .siteinfo{position:relative; z-index:1; margin:0 auto 70px; width:calc(100% - 32px); max-width:720px; text-align:left; font-size:16px; line-height:1.85;
+    color:#eae7ff; background:rgba(20,16,58,.7); border:1px solid rgba(255,209,102,.4); border-radius:12px; padding:16px 20px;}
+  .siteinfo .si-h{color:var(--gold); font-weight:700; letter-spacing:.12em; margin-bottom:6px;}
+  .siteinfo dl{display:grid; grid-template-columns:max-content 1fr; gap:4px 12px; margin:0;}
+  .siteinfo dt{color:#c9c4f0; white-space:nowrap;}
+  .siteinfo dd{margin:0; word-break:break-word;}
+  .siteinfo a{color:var(--gold); text-decoration:underline; text-underline-offset:3px; display:inline-block; padding:6px 0; margin:-6px 0;}
+  @media(max-width:420px){ .siteinfo dl{grid-template-columns:1fr; gap:0;} .siteinfo dd{margin-bottom:6px;} }
+</style>
 </head>
 <body>
   <div class="reader-top">
@@ -139,6 +150,16 @@
     <a href="05.html">← 第五參 ‧ 解脫長者〈胸中的宇宙〉</a>
     <a href="07.html">第七參 ‧ 休捨優婆夷〈憂愁消失的花園〉→</a>
   </nav>
+
+  <section class="siteinfo" aria-label="本站資訊">
+    <div class="si-h">本站資訊</div>
+    <dl>
+      <dt>名稱：</dt><dd>第六參・海幢比丘〈身上長出的救星〉</dd>
+      <dt>網址：</dt><dd><a href="https://twnyda07.github.io/huayan-53-adventure/stories/06.html">twnyda07.github.io/huayan-53-adventure/stories/06.html</a></dd>
+      <dt>特別功能：</dt><dd>讀這一參的奇幻冒險故事，主題是「無盡的奉獻」，連結永續發展目標「SDG 1 消除貧窮」；文末可點開兒童劇劇本，並可連到上一參與下一參。</dd>
+      <dt>創作者／版權所有：</dt><dd>© 2026 寶嚴山寶嚴禪寺　保留一切權利</dd>
+    </dl>
+  </section>
 
   <button class="to-top" id="toTop" aria-label="回到頂端">↑</button>
   <script>
